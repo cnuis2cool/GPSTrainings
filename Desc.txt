@@ -1,0 +1,12 @@
+JavaScript (JS) is a lightweight, interpreted or JIT compiled programming language with first-class functions. Most well-known as the scripting language for Web pages, many non-browser environments also use it, such as node.js and Apache CouchDB. JS is a prototype-based, multi-paradigm, dynamic scripting language, supporting object-oriented, imperative, and declarative (e.g. functional programming) styles.
+
+
+jQuery is a JavaScript Library that focuses on simplifying DOM manipulation, AJAX calls, and Event handling. It is used by JavaScript developers frequently.
+
+Angular (commonly referred to as "Angular 2+" or "Angular v2 and above") is a TypeScript-based open-source front-end web application framework led by the Angular Team at Google and by a community of individuals and corporations. Angular is a complete rewrite from the same team that built AngularJS.
+
+RabbitMQ is an open source message broker software that originally implemented the Advanced Message Queuing Protocol (AMQP) and has since been extended with a plug-in architecture to support Streaming Text Oriented Messaging Protocol (STOMP), Message Queuing Telemetry Transport (MQTT), and other protocols.
+
+Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
+
+https://hexmet.sharepoint.com/sites/GPS-Knowledge-Sharing/Shared%20Documents/General
