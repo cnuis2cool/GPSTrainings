@@ -20,7 +20,7 @@ var getData = (function($){
 						    "<img src='" + d.avatar_url + "' alt='' class='img-responsive'>" +  
 					    "</a>" +
 					    "<div class='caption'>" +
-						    "<strong>" + d.login + "</strong>" +
+						    "<strong>" + d.name + "</strong>" +
 						    "<p> Contributions: " + d.contributions  + "</p>"+
 					    "</div></div></div>" 
 					    

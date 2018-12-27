@@ -8,15 +8,15 @@
 
 # GPS Trainings :books:
 
-An exhaustive collection of words as json files for easy access.
+Trainings portal for GPS
 
 
 ## How to contribute 
 
-> [Refer the file below](https://github.com/cnuis2cool/GPSTrainings/blob/master/CONTRIBUTING.md)
+> [Refer the file](https://github.com/cnuis2cool/GPSTrainings/blob/master/CONTRIBUTING.md)
 
 
-## Create your first pull request :sunglasses:
+## Create your pull request :sunglasses:
 
 > [Fork this repository](https://help.github.com/articles/fork-a-repo/)
 
