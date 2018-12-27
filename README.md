@@ -18,11 +18,17 @@ Trainings portal for GPS
 
 ## Create your pull request :point_down:
 
+> Pick an issue from [issues](https://github.com/cnuis2cool/GPSTrainings/issues)
+
+> Mention you are working on the selected issue, so that others will not touch it.
+
 > [Fork this repository](https://help.github.com/articles/fork-a-repo/)
 
 > Clone the forked repository from your account
 
 > Add your changes to the respective folder.
+
+> Test your changes locally
 
 > Commit your changes with an appropriate message.
 
