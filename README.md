@@ -16,7 +16,7 @@ Trainings portal for GPS
 > [Refer the file](https://github.com/cnuis2cool/GPSTrainings/blob/master/CONTRIBUTING.md)
 
 
-## Create your pull request :sunglasses:
+## Create your pull request :point_down:
 
 > [Fork this repository](https://help.github.com/articles/fork-a-repo/)
 
