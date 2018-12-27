@@ -16,4 +16,3 @@
 
 ### Trainings
 `img\trainings`
-
