@@ -24,11 +24,11 @@ Trainings portal for GPS
 
 > [Fork this repository](https://help.github.com/articles/fork-a-repo/)
 
-> Clone the forked repository from your account
+> [Clone the forked repository from your account](https://help.github.com/articles/fork-a-repo/)
 
 > Add your changes to the respective folder.
 
-> Test your changes locally
+> Test your changes locally. Open index.html in browser.
 
 > Commit your changes with an appropriate message.
 
