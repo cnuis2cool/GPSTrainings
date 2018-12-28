@@ -34,6 +34,8 @@ Trainings portal for GPS
 
 > [Create a pull request](https://help.github.com/articles/creating-a-pull-request-from-a-fork/)
 
+> Make sure appropriate issue is assigned to the PR
+
 
 ## Hall of Fame :fire:
 
