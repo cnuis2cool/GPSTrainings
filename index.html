@@ -26,6 +26,11 @@
     <!-- Custom styles for this template -->
     <link href="css/freelancer.css" rel="stylesheet">
 
+    <!-- Calendar -->
+    <link href="vendor/bootstrap/css/bootstrap-calendar.css" rel="stylesheet">
+    <script src="vendor/bootstrap/js/bootstrap.js" async=""></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.js" async=""></script>
+
     <!-- One Signal -->
     <link rel="manifest" href="/manifest.json" />
     <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
@@ -53,6 +58,9 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item mx-0 mx-lg-1">
+              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#schedule">Schedule</a>
+            </li>
+            <li class="nav-item mx-0 mx-lg-1">
               <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#sessions">Sessions</a>
             </li>
             <li class="nav-item mx-0 mx-lg-1">
@@ -75,9 +83,41 @@
         <h2 class="font-weight-light mb-0">Technology | Domain</h2>
       </div>
     </header>
+    
+    <!-- Calendar bg-primary text-white mb-0-->
+    <section class="bg-secondary text-white mb-0" id="schedule">
+      <div class="container">
+        <h2 class="text-center text-uppercase text-white mb-0">Schedule</h2></br>
+        <h4 class="text-center text-uppercase text-white mb-0">2019 January</h4>
+        <section id="timeline">
+          <article>
+            <div class="inner">
+              <span class="date">
+                <span class="day">7</span>
+                <span class="weekday">MON</span>
+              </span>
+              <h2><a href="https://teams.microsoft.com/l/channel/19%3ae928ef04a29c4d5ca96f0243109fa659%40thread.skype/General?groupId=9a0a6dfa-6dd7-47e4-a174-f27f557853af&tenantId=1b16ab3e-b8f6-4fe3-9f3e-2db7fe549f6a" target="_blank">CAD 10 Overview</a> <img class="mx-auto rounded-circle" height="50px" src="img/team/Ravi.jpg" style="float: right;"/></h2>
+              <p>
+                Overview</br>Differences between </br>- CAD 94 and CAD 10</br>- Configuration Tools</br>- ISM Services</br>- Admin Tools
+              </p>
+            </div>
+          </article>
+          <article>
+            <div class="inner">
+              <span class="date">
+                <span class="day">17</span>
+                <span class="weekday">THU</span>
+              </span>
+              <h2><a href="https://teams.microsoft.com/l/channel/19%3ae928ef04a29c4d5ca96f0243109fa659%40thread.skype/General?groupId=9a0a6dfa-6dd7-47e4-a174-f27f557853af&tenantId=1b16ab3e-b8f6-4fe3-9f3e-2db7fe549f6a" target="_blank">NoSQL Database</a><img class="mx-auto rounded-circle" height="50px" src="img/team/Srinivas.jpg" style="float: right"/></h2>
+              <p>Introduction to NoSQL Databases. How to use them in Web Applications.</p>
+            </div>
+          </article>
+        </section>
+      </div>
+    </section>
 
     <!-- Portfolio Grid Section -->
-    <section class="portfolio" id="sessions">
+    <section class="portfolio bg-light" id="sessions">
       <div class="container">
         <h2 class="text-center text-uppercase text-secondary mb-0">Sessions</h2>
         <hr class="star-dark mb-5">
@@ -387,6 +427,30 @@
               </ul>
             </div>
           </div>
+          <div class="col-md-6 col-lg-3">
+              <div class="team-member">
+                <img class="mx-auto rounded-circle" src="img/team/Ravi.jpg" alt="">
+                <h4>Ravi Babu Arepalli</h4>
+                <p class="text-muted">Senior Manager - Technical</p>
+                <ul class="list-inline social-buttons">
+                  <li class="list-inline-item">
+                    <a href="mailto:ravi.arepalli@hexagonsi.com?Subject=Reg:%20Trainings&cc=srinivas.panuganti@hexagonsi.com">
+                      <i class="fas fa-envelope"></i>
+                    </a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a href="#">
+                      <i class="fab fa-facebook-f"></i>
+                    </a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a href="#">
+                      <i class="fab fa-linkedin-in"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
           <div class="col-md-6 col-lg-3">
             <div class="team-member">
               <img class="mx-auto rounded-circle" src="img/team/user-avatar.png" alt="">
