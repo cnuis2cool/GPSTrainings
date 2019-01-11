@@ -61,16 +61,16 @@ html, body {
     text-align: center;
   }
   section#timeline article div.inner span.date span.day {
-    font-size: 18px;
+    font-size: 16px;
   }
   section#timeline article div.inner span.date span.month {
-    font-size: 18px;
+    font-size: 12px;
   }
   section#timeline article div.inner span.date span.year {
     font-size: 10px;
   }
   section#timeline article div.inner span.date span.weekday {
-    font-size: 10px;
+    font-size: 12px;
   }
   section#timeline article div.inner h2 {
     padding: 15px;
@@ -135,4 +135,28 @@ html, body {
   }
   section#timeline article:nth-child(5) div.inner h2:after {
     background: #9b59b6;
+  }
+  section#timeline article:nth-child(6) div.inner h2 {
+    background: #e74c3c;
+  }
+  section#timeline article:nth-child(6) div.inner h2:after {
+    background: #e74c3c;
+  }
+  section#timeline article:nth-child(7) div.inner h2 {
+    background: #2ecc71;
+  }
+  section#timeline article:nth-child(7) div.inner h2:after {
+    background: #2ecc71;
+  }
+  section#timeline article:nth-child(8) div.inner h2 {
+    background: #e67e22;
+  }
+  section#timeline article:nth-child(8) div.inner h2:after {
+    background: #e67e22;
+  }
+  section#timeline article:nth-child(9) div.inner h2 {
+    background: #1abc9c;
+  }
+  section#timeline article:nth-child(9) div.inner h2:after {
+    background: #1abc9c;
   }
