@@ -1,954 +1,228 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
+<head>
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
 
-    <title>GPS - Knowledge Sharing Sessions</title>
+  <title>GPS - Knowledge Sharing Sessions</title>
 
-    <link rel="icon" href="favicon.png" type="image/png" />
+  <link rel="icon" href="favicon.png" type="image/png" />
 
-    <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Custom fonts for this template -->
-    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+  <!-- Custom fonts for this template -->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
 
-    <!-- Plugin CSS -->
-    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet" type="text/css">
+  <!-- Plugin CSS -->
+  <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet" type="text/css">
 
-    <!-- Custom styles for this template -->
-    <link href="css/freelancer.css" rel="stylesheet">
+  <!-- Custom styles for this template -->
+  <link href="css/freelancer.css" rel="stylesheet">
 
-    <!-- Calendar -->
-    <link href="vendor/bootstrap/css/bootstrap-calendar.css" rel="stylesheet">
-    <script src="vendor/bootstrap/js/bootstrap.js" async=""></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.js" async=""></script>
+  <!-- Calendar -->
+  <link href="vendor/bootstrap/css/bootstrap-calendar.css" rel="stylesheet">
+  <script src="vendor/bootstrap/js/bootstrap.js" async=""></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.js" async=""></script>
 
-    <!-- One Signal -->
-    <link rel="manifest" href="/manifest.json" />
-    <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
-    <script>
-      var OneSignal = window.OneSignal || [];
-      OneSignal.push(function() {
-        OneSignal.init({
-          appId: "cfe3e8db-91b9-4076-8c33-40fe185c708d",
-          autoRegister: true,
-        });
+  <!-- One Signal -->
+  <link rel="manifest" href="/manifest.json" />
+  <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
+  <script>
+    var OneSignal = window.OneSignal || [];
+    OneSignal.push(function () {
+      OneSignal.init({
+        appId: "cfe3e8db-91b9-4076-8c33-40fe185c708d",
+        autoRegister: true,
       });
-    </script>
+    });
+  </script>
 
-  </head>
+</head>
 
-  <body id="page-top" style="overflow-x: hidden">
+<body id="page-top" style="overflow-x: hidden">
 
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg bg-secondary fixed-top text-uppercase" id="mainNav">
-      <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top"><img class="img-fluid mx-auto" src="img/ks2.png" alt="" width="45px"> GPS Training Portal</a>
-        <button class="navbar-toggler navbar-toggler-right text-uppercase bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          <i class="fas fa-bars"></i>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item mx-0 mx-lg-1">
-              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#schedule">Schedule</a>
-            </li>
-            <li class="nav-item mx-0 mx-lg-1">
-              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#sessions">Sessions</a>
-            </li>
-            <li class="nav-item mx-0 mx-lg-1">
-              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#team">Team</a>
-            </li>
-            <li class="nav-item mx-0 mx-lg-1">
-              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">About</a>
-            </li>
-          </ul>
-        </div>
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg bg-secondary fixed-top text-uppercase" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand js-scroll-trigger" href="#page-top"><img class="img-fluid mx-auto" src="img/ks2.png" alt=""
+          width="45px"> GPS Training Portal</a>
+      <button class="navbar-toggler navbar-toggler-right text-uppercase bg-primary text-white rounded" type="button"
+        data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item mx-0 mx-lg-1">
+            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="index-2018.html">2018</a>
+          </li>
+         
+          <li class="nav-item mx-0 mx-lg-1">
+            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#schedule">Schedule</a>
+          </li>
+          <li class="nav-item mx-0 mx-lg-1">
+            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#sessions">Sessions</a>
+          </li>
+          <li class="nav-item mx-0 mx-lg-1">
+            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#team">Team</a>
+          </li>
+          <li class="nav-item mx-0 mx-lg-1">
+            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">About</a>
+          </li>
+        </ul>
       </div>
-    </nav>
+    </div>
+  </nav>
 
-    <!-- Header -->
-    <header class="masthead bg-primary text-white text-center">
-      <div class="container">
-        <img class="img-fluid mb-5 d-block mx-auto" src="img/ks2.png" alt="" width="250px">
-        <h3 class="mb-0">GPS Trainings</h3>
-        <hr class="star-light">
-        <h2 class="font-weight-light mb-0">Technology | Domain</h2>
-      </div>
-    </header>
-    
-    <!-- Schedule -->
-    <section class="bg-secondary text-white mb-0" id="schedule">
-      <div class="container">
-        <h2 class="text-center text-uppercase text-white mb-0">Schedule</h2></br>
-        <h4 class="text-center text-uppercase text-white mb-0">2019 January</h4>
-        <section id="timeline">
-          <article>
-            <div class="inner">
-              <span class="date">
-                <span class="day">7</span>
-                <span class="weekday">MON</span>
-              </span>
-              <h2>
-                <span style="color: white;text-decoration-color: white; text-emphasis-color: white">CAD 10 Overview</span>
-                <img class="mx-auto rounded-circle float-right" height="65px" src="img/team/Ravi.jpg" />
-              </h2>
-              <p>
-                Differences between </br>- CAD 94 and CAD 10</br>- Configuration Tools</br>- ISM Services</br>- Admin Tools
-                <a class="btn btn-sm btn-outline-dark float-right" data-toggle="modal" data-target="#cad10">
-                  <i class="fa fa-info mr-2" aria-hidden="true"></i>
-                  Know more
-                </a>
-              </p>
-            </div>
-          </article>
-          <article>
-            <div class="inner">
-              <span class="date">
-                <span class="day">17</span>
-                <span class="weekday">THU</span>
-              </span>
-              <h2>
-                <span style="color: white;text-decoration-color: white; text-emphasis-color: white">NoSql Database</span>
-                <img class="mx-auto rounded-circle float-right" height="65px" src="img/team/Srinivas.jpg" />
-              </h2>
-              <p>
-                Introduction to NoSql Database. </br>- Types </br>- Benefits </br>- Usage
-                <a class="btn btn-sm btn-outline-dark float-right" data-toggle="modal" data-target="#nosql">
-                  <i class="fa fa-info mr-2" aria-hidden="true"></i>
-                  Know more
-                </a>
-              </p>
-            </div>
-          </article>
-        </section>
-      </div>
-    </section>
+  <!-- Header -->
+  <header class="masthead bg-primary text-white text-center">
+    <div class="container">
+      <img class="img-fluid mb-5 d-block mx-auto" src="img/ks2.png" alt="" width="250px">
+      <h3 class="mb-0">GPS Trainings</h3>
+      <hr class="star-light">
+      <h2 class="font-weight-light mb-0">Technology | Domain</h2>
+    </div>
+  </header>
 
-    <!-- Portfolio Grid Section -->
-    <section class="portfolio bg-white" id="sessions">
-      <div class="container">
-        <h2 class="text-center text-uppercase text-secondary mb-0">Sessions</h2>
-        <hr class="star-dark mb-5">
-        <div class="row">
-          <div class="col-md-6 col-lg-3">
-            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-1">
-              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
-                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                  <i class="fas fa-search-plus fa-3x"></i>
-                </div>
-              </div>
-              <img class="img-fluid" src="img/trainings/CAD.png" alt="">
-            </a>
+  <!-- Schedule -->
+  <section class="bg-secondary text-white mb-0" id="schedule">
+    <div class="container">
+      <h2 class="text-center text-uppercase text-white mb-0">Schedule</h2></br>
+      <h4 class="text-center text-uppercase text-white mb-0">2019 January</h4>
+      <section id="timeline">
+        <article>
+          <div class="inner">
+            <span class="date">
+              <span class="day">7</span>
+              <span class="weekday">MON</span>
+            </span>
+            <h2>
+              <span style="color: white;text-decoration-color: white; text-emphasis-color: white">CAD 10 Overview</span>
+              <img class="mx-auto rounded-circle float-right" height="65px" src="img/team/Ravi.jpg" />
+            </h2>
+            <p>
+              Differences between </br>- CAD 94 and CAD 10</br>- Configuration Tools</br>- ISM Services</br>- Admin
+              Tools
+              <a class="btn btn-sm btn-outline-dark float-right" data-toggle="modal" data-target="#cad10">
+                <i class="fa fa-info mr-2" aria-hidden="true"></i>
+                Know more
+              </a>
+            </p>
           </div>
-          <div class="col-md-6 col-lg-3">
-            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-2">
-              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
-                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                  <i class="fas fa-search-plus fa-3x"></i>
-                </div>
-              </div>
-              <img class="img-fluid" src="img/trainings/Git.png" alt="">
-            </a>
+        </article>
+        <article>
+          <div class="inner">
+            <span class="date">
+              <span class="day">17</span>
+              <span class="weekday">THU</span>
+            </span>
+            <h2>
+              <span style="color: white;text-decoration-color: white; text-emphasis-color: white">NoSql Database</span>
+              <img class="mx-auto rounded-circle float-right" height="65px" src="img/team/Srinivas.jpg" />
+            </h2>
+            <p>
+              Introduction to NoSql Database. </br>- Types </br>- Benefits </br>- Usage
+              <a class="btn btn-sm btn-outline-dark float-right" data-toggle="modal" data-target="#nosql">
+                <i class="fa fa-info mr-2" aria-hidden="true"></i>
+                Know more
+              </a>
+            </p>
           </div>
-          <div class="col-md-6 col-lg-3">
-            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-3">
-              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
-                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                  <i class="fas fa-search-plus fa-3x"></i>
-                </div>
-              </div>
-              <img class="img-fluid" src="img/trainings/SSL.png" alt="">
-            </a>
-          </div>
-          <div class="col-md-6 col-lg-3">
-            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-4">
-              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
-                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                  <i class="fas fa-search-plus fa-3x"></i>
-                </div>
-              </div>
-              <img class="img-fluid" src="img/trainings/JavaScript.png" alt="">
-            </a>
-          </div>
-          <div class="col-md-6 col-lg-3">
-            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-5">
-              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
-                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                  <i class="fas fa-search-plus fa-3x"></i>
-                </div>
-              </div>
-              <img class="img-fluid" src="img/trainings/jQuery.png" alt="">
-            </a>
-          </div>
-          <div class="col-md-6 col-lg-3">
-            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-6">
-              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
-                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                  <i class="fas fa-search-plus fa-3x"></i>
-                </div>
-              </div>
-              <img class="img-fluid" src="img/trainings/Angular.png" alt="">
-            </a>
-          </div>
-          <div class="col-md-6 col-lg-3">
-            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-7">
-              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
-                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                  <i class="fas fa-search-plus fa-3x"></i>
-                </div>
-              </div>
-              <img class="img-fluid" src="img/trainings/EdgeFrontier.png" alt="">
-            </a>
-          </div>   
-          <div class="col-md-6 col-lg-3">
-            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-8">
-              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
-                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                  <i class="fas fa-search-plus fa-3x"></i>
-                </div>
-              </div>
-              <img class="img-fluid" src="img/trainings/RabbitMQ.png" alt="">
-            </a>
-          </div> 
-          <div class="col-md-6 col-lg-3">
-            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-9">
-              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
-                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                  <i class="fas fa-search-plus fa-3x"></i> 
-                </div>
-              </div>
-              <img class="img-fluid" src="img/trainings/Crystal_Reports.png" alt="">
-            </a>
-          </div>
-          <div class="col-md-6 col-lg-3">
-            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-10">
-              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
-                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                  <i class="fas fa-search-plus fa-3x"></i> 
-                </div>
-              </div>
-              <img class="img-fluid" src="img/trainings/Cad10.png" alt="">
-            </a>
-          </div>
-        </div>
-      </div>   
-    </section>
+        </article>
+      </section>
+    </div>
+  </section>
 
-    <!-- Team -->
-    <section class="bg-light" id="team">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12 text-center">
-            <h2 class="section-heading text-uppercase">Amazing Team</h2>
-            <h3 class="section-subheading text-muted"></h3>
-          </div>
-        </div>
-        <hr class="star-dark mb-5">
-        <div class="row">
-          <div class="col-md-6 col-lg-3">
-            <div class="team-member">
-              <img class="mx-auto rounded-circle" src="img/team/PavanD.jpeg" alt="">
-              <h4>Pavan Deverapalli</h4>
-              <p class="text-muted">Manager - Technical</p>
-              <ul class="list-inline social-buttons">
-                <li class="list-inline-item">
-                  <a href="mailto:pavankumar.deverapalli@hexagonsi.com?Subject=Reg:%20Trainings&cc=srinivas.panuganti@hexagonsi.com" target="_top">
-                    <i class="fas fa-envelope"></i>
-                  </a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="#">
-                    <i class="fab fa-facebook-f"></i>
-                  </a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="#">
-                    <i class="fab fa-linkedin-in"></i>
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-3">
-            <div class="team-member">
-              <img class="mx-auto rounded-circle" src="img/team/Sravani.jpg" alt="">
-              <h4>Sravani Tirumareddi</h4>
-              <p class="text-muted">Project Leader</p>
-              <ul class="list-inline social-buttons">
-                <li class="list-inline-item">
-                  <a href="mailto:sravani.tirumareddi@hexagonsi.com?Subject=Reg:%20CAD%20Trainings&cc=srinivas.panuganti@hexagonsi.com">
-                    <i class="fas fa-envelope"></i>
-                  </a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="#">
-                    <i class="fab fa-facebook-f"></i>
-                  </a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="#">
-                    <i class="fab fa-linkedin-in"></i>
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>           
-          <div class="col-md-6 col-lg-3">
-            <div class="team-member">
-              <img class="mx-auto rounded-circle" src="img/team/Krishna.png" alt="">
-              <h4>Krishna Anipindi</h4>
-              <p class="text-muted">Senior Software Consultant</p>
-              <ul class="list-inline social-buttons">
-                <li class="list-inline-item">
-                  <a href="mailto:Krishna.Anipindi@hexagonsi.com?Subject=Reg:%20Trainingss&cc=srinivas.panuganti@hexagonsi.com">
-                    <i class="fas fa-envelope"></i>
-                  </a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="#">
-                    <i class="fab fa-facebook-f"></i>
-                  </a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="#">
-                    <i class="fab fa-linkedin-in"></i>
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-3">
-            <div class="team-member">
-              <img class="mx-auto rounded-circle" src="img/team/Srinivas.jpg" alt="">
-              <h4>Srinivas Panuganti</h4>
-              <p class="text-muted">Manager - Technical</p>
-              <ul class="list-inline social-buttons">
-                <li class="list-inline-item">
-                  <a href="mailto:Srinivas.Panuganti@Hexagonsi.com?Subject=Reg:%20Trainingss&cc=srinivas.panuganti@hexagonsi.com" target="_top">
-                    <i class="fas fa-envelope"></i>
-                  </a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="https://www.linkedin.com/in/cnuis2cool/" target="_blank">
-                    <i class="fab fa-linkedin-in"></i>
-                  </a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="https://twitter.com/cnuis2cool" target="_blank">
-                    <i class="fab fa-twitter"></i>
-                  </a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="https://www.quora.com/profile/Srinivas-Panuganti" target="_blank">
-                    <i class="fab fa-quora"></i>
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>          
-        </div>
-
-        <div class="row">
-          <div class="col-md-6 col-lg-3">
-            <div class="team-member">
-              <img class="mx-auto rounded-circle" src="img/team/Ramya.png" alt="">
-              <h4>Ramya Gokaraju</h4>
-              <p class="text-muted">Senior Software Consultant</p>
-              <ul class="list-inline social-buttons">
-                <li class="list-inline-item">
-                  <a href="mailto:ramya.gokaraju@hexagonsi.com?Subject=Reg:%20Trainingss&cc=srinivas.panuganti@hexagonsi.com">
-                    <i class="fas fa-envelope"></i>
-                  </a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="#">
-                    <i class="fab fa-facebook-f"></i>
-                  </a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="#">
-                    <i class="fab fa-linkedin-in"></i>
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-3">
-            <div class="team-member">
-              <img class="mx-auto rounded-circle" src="img/team/Khaiser.png" alt="">
-              <h4>Khaiser Mohammed</h4>
-              <p class="text-muted">Senior Software Analyst</p>
-              <ul class="list-inline social-buttons">
-                <li class="list-inline-item">
-                  <a href="mailto:khaiser.mohammed@hexagonsi.com?Subject=Reg:%20Trainingss&cc=srinivas.panuganti@hexagonsi.com">
-                    <i class="fas fa-envelope"></i>
-                  </a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="#">
-                    <i class="fab fa-facebook-f"></i>
-                  </a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="#">
-                    <i class="fab fa-linkedin-in"></i>
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-3">
-            <div class="team-member">
-              <img class="mx-auto rounded-circle" src="img/team/Rajiv.jpg" alt="">
-              <h4>Rajiv Jalakam</h4>
-              <p class="text-muted">Software Analyst</p>
-              <ul class="list-inline social-buttons">
-                <li class="list-inline-item">
-                  <a href="mailto:rajiv.jalakam@hexagonsi.com?Subject=Reg:%20Trainingss&cc=srinivas.panuganti@hexagonsi.com">
-                    <i class="fas fa-envelope"></i>
-                  </a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="#">
-                    <i class="fab fa-facebook-f"></i>
-                  </a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="#">
-                    <i class="fab fa-linkedin-in"></i>
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-3">
-            <div class="team-member">
-              <img class="mx-auto rounded-circle" src="img/team/Sairam.jpg" alt="">
-              <h4>Sairam Vallem</h4>
-              <p class="text-muted">Senior Software Analyst</p>
-              <ul class="list-inline social-buttons">
-                <li class="list-inline-item">
-                  <a href="mailto:sairam.vallem@hexagonsi.com?Subject=Reg:%20Trainings&cc=srinivas.panuganti@hexagonsi.com">
-                    <i class="fas fa-envelope"></i>
-                  </a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="#">
-                    <i class="fab fa-facebook-f"></i>
-                  </a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="#">
-                    <i class="fab fa-linkedin-in"></i>
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-3">
-              <div class="team-member">
-                <img class="mx-auto rounded-circle" src="img/team/Ravi.jpg" alt="">
-                <h4>Ravi Babu Arepalli</h4>
-                <p class="text-muted">Senior Manager - Technical</p>
-                <ul class="list-inline social-buttons">
-                  <li class="list-inline-item">
-                    <a href="mailto:ravi.arepalli@hexagonsi.com?Subject=Reg:%20Trainings&cc=srinivas.panuganti@hexagonsi.com">
-                      <i class="fas fa-envelope"></i>
-                    </a>
-                  </li>
-                  <li class="list-inline-item">
-                    <a href="#">
-                      <i class="fab fa-facebook-f"></i>
-                    </a>
-                  </li>
-                  <li class="list-inline-item">
-                    <a href="#">
-                      <i class="fab fa-linkedin-in"></i>
-                    </a>
-                  </li>
-                </ul>
+  <!-- Portfolio Grid Section -->
+  <section class="portfolio bg-white" id="sessions">
+    <div class="container">
+      <h2 class="text-center text-uppercase text-secondary mb-0">Sessions</h2>
+      <hr class="star-dark mb-5">
+      <div class="row">
+        <div class="col-md-6 col-lg-3">
+          <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-10">
+            <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+              <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                <i class="fas fa-search-plus fa-3x"></i>
               </div>
             </div>
-          <div class="col-md-6 col-lg-3">
-            <div class="team-member">
-              <img class="mx-auto rounded-circle" src="img/team/user-avatar.png" alt="">
-              <h4>Your Turn Now</h4>
-              <p class="text-muted">Your Designation</p>
-              <ul class="list-inline social-buttons">
-                <li class="list-inline-item">
-                  <a href="#">
-                    <i class="fab fa-twitter"></i>
-                  </a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="#">
-                    <i class="fab fa-facebook-f"></i>
-                  </a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="#">
-                    <i class="fab fa-linkedin-in"></i>
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>                 
-        </div>     
-        <div class="row">
-          <div class="col-lg-8 mx-auto text-center mt-4">
-            <a class="btn btn-xl btn-outline-dark" 
-              href="mailto:srinivas.panuganti@hexagonsi.com&Subject=Reg:%20Trainings%20-%20Thank%20You&cc=pavankumar.deverapalli@hexagonsi.com;sravani.tirumareddi@hexagonsi.com;Krishna.Anipindi@hexagonsi.com;ramya.gokaraju@hexagonsi.com;khaiser.mohammed@hexagonsi.com;rajiv.jalakam@hexagonsi.com;ravi.arepalli@hexagonsi.com;rajaaditya.gopu@hexagonsi.com;ramanadham.konduru@hexagonsi.com" 
-              target="_top">
-              <i class="fas fa-thumbs-up mr-2"></i>
-              Say Thanks!
-            </a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- About Section -->
-    <section class="bg-primary text-white mb-0" id="about">
-      <div class="container">
-        <h2 class="text-center text-uppercase text-white">About</h2>
-        <hr class="star-light mb-5">
-        <div class="row">
-          <div class="col-lg-4 ml-auto">
-            <p class="lead">Knowledge is power. In our continuous endeavor to bring the team to speed on the ever-expanding realms of domain and on the latest and greatest of technologies, we have been conducting carefully planned knowledge sharing sessions. We are also continuously listening to the needs of the team to deliver sessions that help them onboard a new skill or requirement. It is our passion to spread the light of knowledge and it is our commitment to ensure that no one is left behind.</p>
-          </div>
-          <div class="col-lg-4 mr-auto">
-            <p class="lead">We are always on the lookout for captains who can lead the team in to new arenas and will do our best to ensure that the knowledge imparting journey is smooth and successful. Be on the look out for our adventure sirens and join the ship for an exciting and fruitful journey. Together, we can make this the best ever ride. Hold the beacon of knowledge high.</p>
-          </div>
-        </div>
-        <div class="text-center mt-4">
-          <a class="btn btn-xl btn-outline-light" href="https://teams.microsoft.com/l/channel/19%3ae928ef04a29c4d5ca96f0243109fa659%40thread.skype/General?groupId=9a0a6dfa-6dd7-47e4-a174-f27f557853af&tenantId=1b16ab3e-b8f6-4fe3-9f3e-2db7fe549f6a" target="_blank">
-            <i class="fas fa-sign-in-alt mr-2"></i>
-            Join Teams Now!
+            <img class="img-fluid" src="img/trainings/Cad10.png" alt="">
           </a>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- Footer -->
-    <footer class="footer text-center" >
-        <div class="row">
-          <div class="col-md-4">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15224.556547787586!2d78.370112!3d17.4530534!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe3c89d70db77622f!2sPurva+Summit!5e0!3m2!1sen!2sin!4v1545975493183" width="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
-          </div>
-          <div class="col-md-4" style="padding-top: 1rem">
-            <h4 class="text-uppercase mb-4">Contact Us</h4>
-            <ul class="list-inline mb-0">
+  <!-- Team -->
+  <section class="bg-light" id="team">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading text-uppercase">Amazing Team</h2>
+          <h3 class="section-subheading text-muted"></h3>
+        </div>
+      </div>
+      <hr class="star-dark mb-5">
+      <div class="row">
+        <div class="col-md-6 col-lg-3">
+          <div class="team-member">
+            <img class="mx-auto rounded-circle" src="img/team/Ravi.jpg" alt="">
+            <h4>Ravi Babu Arepalli</h4>
+            <p class="text-muted">Senior Manager - Technical</p>
+            <ul class="list-inline social-buttons">
               <li class="list-inline-item">
-                <a class="btn btn-outline-light btn-social text-center rounded-circle" href="mailto:Srinivas.Panuganti@Hexagonsi.com?Subject=Reg:%20Trainings">
-                  <i class="fas fa-fw fa-envelope"></i>
+                <a href="mailto:ravi.arepalli@hexagonsi.com?Subject=Reg:%20Trainings&cc=srinivas.panuganti@hexagonsi.com">
+                  <i class="fas fa-envelope"></i>
                 </a>
               </li>
               <li class="list-inline-item">
-                <a class="btn btn-outline-light btn-social text-center rounded-circle" href="https://twitter.com/cnuis2cool" target="_blank">
-                  <i class="fab fa-fw fa-twitter"></i>
+                <a href="#">
+                  <i class="fab fa-facebook-f"></i>
                 </a>
               </li>
               <li class="list-inline-item">
-                <a class="btn btn-outline-light btn-social text-center rounded-circle" href="https://in.linkedin.com/in/cnuis2cool" target="_blank">
-                  <i class="fab fa-fw fa-linkedin-in"></i>
+                <a href="#">
+                  <i class="fab fa-linkedin-in"></i>
                 </a>
               </li>
             </ul>
           </div>
-          <div class="col-md-4" style="padding-top: 1rem">
-            <small>
-            <h4 class="text-uppercase mb-4">Credentials</h4>
-            <p class="lead mb-0">This Open source theme taken from
-              <a href="http://startbootstrap.com">Start Bootstrap</a></p></small>
-            </div>
-         
         </div>
-    </footer>
-
-    <!-- Copyright -->
-    <div class="copyright py-4 text-center text-white">
-      <div class="container">
-        <div class="row">
-            <div class="container">
-              <small>Copyright &copy; GPS 2018</small>
-            </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
-    <div class="scroll-to-top d-lg-none position-fixed ">
-      <a class="js-scroll-trigger d-block text-center text-white rounded" href="#page-top">
-        <i class="fa fa-chevron-up"></i>
-      </a>
-    </div>
-
-    <!-- Portfolio Modals -->
-
-    <!-- Portfolio Modal 1 -->
-    <div class="portfolio-modal mfp-hide" id="portfolio-modal-1">
-      <div class="portfolio-modal-dialog bg-white">
-        <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
-          <i class="fa fa-3x fa-times"></i>
-        </a>
-        <div class="container text-center">
-          <h2 class="text-secondary mb-0">I/CAD Fundamentals</h2>
-          <hr class="star-dark mb-5">
-          <div class="row">
-            <div class="col-lg-4 mx-auto team-member">
-              <img class="mx-auto rounded-circle" src="img/team/PavanD.jpeg" alt="">
-              <h4>Pavan Deverapalli</h4>
-              <p class="text-muted">Manager - Technical</p>
-              <a class="btn btn-xl btn-outline-dark" 
-                href="mailto:pavankumar.deverapalli@hexagonsi.com&Subject=Reg:%20Trainings%20-%20Thank%20You&cc=srinivas.panuganti@hexagonsi.com;ravi.arepalli@hexagonsi.com;rajaaditya.gopu@hexagonsi.com;ramanadham.konduru@hexagonsi.com" 
-                target="_top">
-                <i class="fas fa-thumbs-up mr-2"></i>
-                Say Thanks!
-              </a>
-            </div>
-            <div class="col-lg-4 mx-auto">
-              <img class="img-fluid mb-5" src="img/trainings/CAD.png" alt="" width="400px">
-              <p class="mb-5">I/CAD leverages next-generation communications, improves mobility and safety, and reduces deployment time and costs.
-              </p>
-              <a class="btn btn-xl rounded-pill" href="https://hexmet.sharepoint.com/sites/GPS-Knowledge-Sharing/Shared%20Documents/General" target="_blank">
-                <i class="fas fa-download mr-2"></i>
-                Download Files
-              </a>              
-            </div>
-            <div class="col-lg-4 mx-auto team-member">
-                <img class="mx-auto rounded-circle" src="img/team/Sravani.jpg" alt="">
-                <h4>Sravani Tirumareddi</h4>
-                <p class="text-muted">Project Leader</p>
-                <a class="btn btn-xl btn-outline-dark" 
-                  href="mailto:sravani.tirumareddi@hexagonsi.com&Subject=Reg:%20Trainings%20-%20Thank%20You&cc=srinivas.panuganti@hexagonsi.com;ravi.arepalli@hexagonsi.com;rajaaditya.gopu@hexagonsi.com;ramanadham.konduru@hexagonsi.com" 
-                  target="_top">
-                  <i class="fas fa-thumbs-up mr-2"></i>
-                  Say Thanks!
-                </a>                
-              </div>                      
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Portfolio Modal 2 -->
-    <div class="portfolio-modal mfp-hide" id="portfolio-modal-2">
-      <div class="portfolio-modal-dialog bg-white">
-        <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
-          <i class="fa fa-3x fa-times"></i>
-        </a>
-        <div class="container text-center">
-            <h2 class="text-secondary mb-0">Git for Beginners</h2>
-            <hr class="star-dark mb-5">
-            <div class="row">
-              <div class="col-lg-4 mx-auto">
-                <img class="img-fluid mb-5" src="img/trainings/Git.png" alt="" width="400px">
-                <p class="mb-5">Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.</p>
-              </div>
-              <div class="col-lg-4 mx-auto team-member">
-                <img class="mx-auto rounded-circle" src="img/team/Rajiv.jpg" alt="">
-                <h4>Rajiv Jalakam</h4>
-                <p class="text-muted">Software Analyst</p>
-                <a class="btn btn-xl btn-outline-dark" 
-                  href="mailto:rajiv.jalakam@hexagonsi.com&Subject=Reg:%20Trainings%20-%20Thank%20You&cc=srinivas.panuganti@hexagonsi.com;ravi.arepalli@hexagonsi.com;rajaaditya.gopu@hexagonsi.com;ramanadham.konduru@hexagonsi.com" 
-                  target="_top">
-                  <i class="fas fa-thumbs-up mr-2"></i>
-                  Say Thanks!
+        <div class="col-md-6 col-lg-3">
+          <div class="team-member">
+            <img class="mx-auto rounded-circle" src="img/team/user-avatar.png" alt="">
+            <h4>Your Turn Now</h4>
+            <p class="text-muted">Your Designation</p>
+            <ul class="list-inline social-buttons">
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="fab fa-twitter"></i>
                 </a>
-                <!-- <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
-                  <i class="fa fa-close"></i>
-                  Close</a> -->
-              </div>
-              <div class="col-lg-4 mx-auto">
-                <img class="img-fluid mb-5" src="img/feedback/Git.png" alt="" width="400px">
-                <a class="btn btn-xl rounded-pill" href="https://hexmet.sharepoint.com/sites/GPS-Knowledge-Sharing/Shared%20Documents/General" target="_blank">
-                  <i class="fas fa-download mr-2"></i>
-                  Download Files
+              </li>
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="fab fa-facebook-f"></i>
                 </a>
-              </div>                        
-            </div>
-          </div>
-      </div>
-    </div>
-
-    <!-- Portfolio Modal 3 -->
-    <div class="portfolio-modal mfp-hide" id="portfolio-modal-3">
-      <div class="portfolio-modal-dialog bg-white">
-        <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
-          <i class="fa fa-3x fa-times"></i>
-        </a>
-        <div class="container text-center">
-          <h2 class="text-secondary mb-0">Basics of SSL</h2>
-          <hr class="star-dark mb-5">
-          <div class="row">
-            <div class="col-lg-4 mx-auto">
-              <img class="img-fluid mb-5" src="img/trainings/SSL.png" alt="" width="400px">
-              <p class="mb-5">SSL (Secure Sockets Layer) is a standard security protocol for establishing encrypted links between a web server and a browser in an online communication. The usage of SSL technology ensures that all data transmitted between the web server and browser remains encrypted.</p>
-              <a class="btn btn-xl rounded-pill" href="https://hexmet.sharepoint.com/sites/GPS-Knowledge-Sharing/Shared%20Documents/General" target="_blank">
-                <i class="fas fa-download mr-2"></i>
-                Download Files
-              </a> 
-            </div>
-            <div class="col-lg-4 mx-auto team-member">
-              <img class="mx-auto rounded-circle" src="img/team/Krishna.png" alt="">
-              <h4>Krishna Anipindi</h4>
-              <p class="text-muted">Senior Software Consultant</p>
-              <a class="btn btn-xl btn-outline-dark" 
-                href="mailto:Krishna.Anipindi@hexagonsi.com&Subject=Reg:%20Trainings%20-%20Thank%20You&cc=srinivas.panuganti@hexagonsi.com;ravi.arepalli@hexagonsi.com;rajaaditya.gopu@hexagonsi.com;ramanadham.konduru@hexagonsi.com" 
-                target="_top">
-                <i class="fas fa-thumbs-up mr-2"></i>
-                Say Thanks!
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Portfolio Modal 4 -->
-    <div class="portfolio-modal mfp-hide" id="portfolio-modal-4">
-      <div class="portfolio-modal-dialog bg-white">
-        <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
-          <i class="fa fa-3x fa-times"></i>
-        </a>
-        <div class="container text-center">
-          <h2 class="text-secondary mb-0">JavaScript for Beginners</h2>
-          <hr class="star-dark mb-5">
-          <div class="row">
-            <div class="col-lg-4 mx-auto">
-              <img class="img-fluid mb-5" src="img/trainings/JavaScript.png" alt="" width="400px">
-              <p class="mb-5">JavaScript (JS) is a lightweight, interpreted or JIT compiled programming language with first-class functions. Most well-known as the scripting language for Web pages, many non-browser environments also use it, such as node.js and Apache CouchDB. JS is a prototype-based, multi-paradigm, dynamic scripting language, supporting object-oriented, imperative, and declarative (e.g. functional programming) styles.</p>
-            </div>
-            <div class="col-lg-4 mx-auto team-member">
-              <img class="mx-auto rounded-circle" src="img/team/Srinivas.jpg" alt="">
-              <h4>Srinivas Panuganti</h4>
-              <p class="text-muted">Full-Stack Developer</p>
-              <a class="btn btn-xl btn-outline-dark" 
-                href="mailto:srinivas.panuganti@hexagonsi.com&Subject=Reg:%20Trainings%20-%20Thank%20You&cc=srinivas.panuganti@hexagonsi.com;ravi.arepalli@hexagonsi.com;rajaaditya.gopu@hexagonsi.com;ramanadham.konduru@hexagonsi.com" 
-                target="_top">
-                <i class="fas fa-thumbs-up mr-2"></i>
-                Say Thanks!
-              </a>
-            </div>
-            <div class="col-lg-4 mx-auto">
-              <img class="img-fluid mb-5" src="img/feedback/JS.png" alt="" width="400px">
-              <a class="btn btn-xl rounded-pill" href="https://hexmet.sharepoint.com/sites/GPS-Knowledge-Sharing/Shared%20Documents/General" target="_blank">
-                <i class="fas fa-download mr-2"></i>
-                Download Files
-              </a>                
-            </div>                        
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Portfolio Modal 5 -->
-    <div class="portfolio-modal mfp-hide" id="portfolio-modal-5">
-      <div class="portfolio-modal-dialog bg-white">
-        <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
-          <i class="fa fa-3x fa-times"></i>
-        </a>
-        <div class="container text-center">
-          <h2 class="text-secondary mb-0">jQuery for Beginners</h2>
-          <hr class="star-dark mb-5">
-          <div class="row">
-            <div class="col-lg-4 mx-auto">
-              <img class="img-fluid mb-5" src="img/trainings/jQuery.png" alt="" width="400px">
-              <p class="mb-5">jQuery is a JavaScript Library that focuses on simplifying DOM manipulation, AJAX calls, and Event handling. It is used by JavaScript developers frequently.</p>
-              <a class="btn btn-xl rounded-pill" href="https://hexmet.sharepoint.com/sites/GPS-Knowledge-Sharing/Shared%20Documents/General" target="_blank">
-                <i class="fas fa-download mr-2"></i>
-                Download Files
-              </a>                           
-            </div>
-            <div class="col-lg-4 mx-auto team-member">
-              <img class="mx-auto rounded-circle" src="img/team/Ramya.png" alt="">
-              <h4>Ramya Gokaraju</h4>
-              <p class="text-muted">Senior Software Consultant</p>
-              <a class="btn btn-xl btn-outline-dark" 
-                href="mailto:ramya.gokaraju@hexagonsi.com&Subject=Reg:%20Trainings%20-%20Thank%20You&cc=srinivas.panuganti@hexagonsi.com;ravi.arepalli@hexagonsi.com;rajaaditya.gopu@hexagonsi.com;ramanadham.konduru@hexagonsi.com" 
-                target="_top">
-                <i class="fas fa-thumbs-up mr-2"></i>
-                Say Thanks!
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Portfolio Modal 6 -->
-    <div class="portfolio-modal mfp-hide" id="portfolio-modal-6">
-      <div class="portfolio-modal-dialog bg-white">
-        <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
-          <i class="fa fa-3x fa-times"></i>
-        </a>
-        <div class="container text-center">
-          <h2 class="text-secondary mb-0">Angular for Beginners</h2>
-          <hr class="star-dark mb-5">
-          <div class="row">
-            <div class="col-lg-4 mx-auto">
-              <img class="img-fluid mb-5" src="img/trainings/Angular.png" alt="" width="400px">
-              <p class="mb-5">Angular (commonly referred to as "Angular 2+" or "Angular v2 and above") is a TypeScript-based open-source front-end web application framework led by the Angular Team at Google and by a community of individuals and corporations. Angular is a complete rewrite from the same team that built AngularJS.</p>
-            </div>
-            <div class="col-lg-4 mx-auto team-member">
-              <img class="mx-auto rounded-circle" src="img/team/Krishna.png" alt="">
-              <h4>Krishna Anipindi</h4>
-              <p class="text-muted">Senior Software Consultant</p>
-              <a class="btn btn-xl btn-outline-dark" 
-                href="mailto:Krishna.Anipindi@hexagonsi.com&Subject=Reg:%20Trainings%20-%20Thank%20You&cc=srinivas.panuganti@hexagonsi.com;ravi.arepalli@hexagonsi.com;rajaaditya.gopu@hexagonsi.com;ramanadham.konduru@hexagonsi.com" 
-                target="_top">
-                <i class="fas fa-thumbs-up mr-2"></i>
-                Say Thanks!
-              </a>
-            </div>
-            <div class="col-lg-4 mx-auto">
-              <img class="img-fluid mb-5" src="img/feedback/Angular.png" alt="" width="400px">
-              <a class="btn btn-xl rounded-pill" href="https://hexmet.sharepoint.com/sites/GPS-Knowledge-Sharing/Shared%20Documents/General" target="_blank">
-                <i class="fas fa-download mr-2"></i>
-                Download Files
-              </a> 
-            </div>                        
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Portfolio Modal 7 -->
-    <div class="portfolio-modal mfp-hide" id="portfolio-modal-7">
-      <div class="portfolio-modal-dialog bg-white">
-        <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
-          <i class="fa fa-3x fa-times"></i>
-        </a>
-        <div class="container text-center">
-          <h2 class="text-secondary mb-0">EdgeFrontier for Beginners</h2>
-          <hr class="star-dark mb-5">
-          <div class="row">
-            <div class="col-lg-4 mx-auto">
-              <img class="img-fluid mb-5" src="img/trainings/EdgeFrontier.png" alt="" width="400px">
-              <p class="mb-5">EdgeFrontier is an integration platform that enables rapid, affordable interface development tailored to the needs of an organization. It provides a lightweight yet powerful infrastructure for integrating business processes and sharing data.</p>
-            </div>
-            <div class="col-lg-4 mx-auto team-member">
-              <img class="mx-auto rounded-circle" src="img/team/Khaiser.png" alt="">
-              <h4>Khaiser</h4>
-              <p class="text-muted">Senior Software Analyst</p>
-              <a class="btn btn-xl btn-outline-dark" 
-                href="mailto:khaiser.mohammed@hexagonsi.com&Subject=Reg:%20Trainings%20-%20Thank%20You&cc=srinivas.panuganti@hexagonsi.com;ravi.arepalli@hexagonsi.com;rajaaditya.gopu@hexagonsi.com;ramanadham.konduru@hexagonsi.com" 
-                target="_top">
-                <i class="fas fa-thumbs-up mr-2"></i>
-                Say Thanks!
-              </a>
-            </div>
-            <div class="col-lg-4 mx-auto">
-              <img class="img-fluid mb-5" src="img/feedback/EF.png" alt="" width="400px">
-              <a class="btn btn-xl rounded-pill" href="https://hexmet.sharepoint.com/sites/GPS-Knowledge-Sharing/Shared%20Documents/General" target="_blank">
-                <i class="fas fa-download mr-2"></i>
-                Download Files
-              </a>
-            </div>                        
-          </div>
-        </div>
-      </div>
-    </div>    
-
-    <!-- Portfolio Modal 8 -->
-    <div class="portfolio-modal mfp-hide" id="portfolio-modal-8">
-      <div class="portfolio-modal-dialog bg-white">
-        <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
-          <i class="fa fa-3x fa-times"></i>
-        </a>
-        <div class="container text-center">
-          <h2 class="text-secondary mb-0">Introduction to RabbitMQ</h2>
-          <hr class="star-dark mb-5">
-          <div class="row">
-            <div class="col-lg-4 mx-auto">
-              <img class="img-fluid mb-5" src="img/trainings/RabbitMQ.png" alt="" width="400px">
-              <p class="mb-5">RabbitMQ is an open source message broker software that originally implemented the Advanced Message Queuing Protocol (AMQP) and has since been extended with a plug-in architecture to support Streaming Text Oriented Messaging Protocol (STOMP), Message Queuing Telemetry Transport (MQTT), and other protocols.</p>
-              <a class="btn btn-xl rounded-pill" href="https://hexmet.sharepoint.com/sites/GPS-Knowledge-Sharing/Shared%20Documents/General" target="_blank">
-                <i class="fas fa-download mr-2"></i>
-                Download Files
-              </a>
-            </div>
-            <div class="col-lg-4 mx-auto team-member">
-              <img class="mx-auto rounded-circle" src="img/team/Sravani.jpg" alt="">
-              <h4>Sravani Tirumareddi</h4>
-              <p class="text-muted">Project Leader</p>
-              <a class="btn btn-xl btn-outline-dark" 
-                href="mailto:sravani.tirumareddi@hexagonsi.com&Subject=Reg:%20Trainings%20-%20Thank%20You&cc=srinivas.panuganti@hexagonsi.com;ravi.arepalli@hexagonsi.com;rajaaditya.gopu@hexagonsi.com;ramanadham.konduru@hexagonsi.com" 
-                target="_top">
-                <i class="fas fa-thumbs-up mr-2"></i>
-                Say Thanks!
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>    
-
-    <!-- Portfolio Modal -9 -->
-    <div class="portfolio-modal mfp-hide" id="portfolio-modal-9">
-        <div class="portfolio-modal-dialog bg-white">
-          <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
-            <i class="fa fa-3x fa-times"></i>
-          </a>
-          <div class="container text-center">
-            <h2 class="text-secondary mb-0">Crystal Reports for Beginners</h2>
-            <hr class="star-dark mb-5">
-            <div class="row">
-              <div class="col-lg-4 mx-auto">
-                <img class="img-fluid mb-5" src="img/trainings/Crystal_Reports.png" alt="" width="400px">
-                <p class="mb-5">Crystal Reports is a business intelligence application used to create custom reports from a variety of data sources.</p>
-                <a class="btn btn-xl rounded-pill" href="https://hexmet.sharepoint.com/sites/GPS-Knowledge-Sharing/Shared%20Documents/General" target="_blank">
-                  <i class="fas fa-download mr-2"></i>
-                  Download Files
+              </li>
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="fab fa-linkedin-in"></i>
                 </a>
-              </div>
-              <div class="col-lg-4 mx-auto team-member">
-                <img class="mx-auto rounded-circle" src="img/team/Sairam.jpg" alt="">
-                <h4>Sairam Vallem</h4>
-                <p class="text-muted">Senior Software Analyst</p>
-                <a class="btn btn-xl btn-outline-dark" 
-                  href="mailto:sairam.vallem@hexagonsi.com&Subject=Reg:%20Trainings%20-%20Thank%20You&cc=srinivas.panuganti@hexagonsi.com;ravi.arepalli@hexagonsi.com;rajaaditya.gopu@hexagonsi.com;ramanadham.konduru@hexagonsi.com" 
-                  target="_top">
-                  <i class="fas fa-thumbs-up mr-2"></i>
-                  Say Thanks!
-                </a>
-              </div>
-            </div>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
-<!-- Portfolio Modal -10 -->
-<div class="portfolio-modal mfp-hide" id="portfolio-modal-10">
-  <div class="portfolio-modal-dialog bg-white">
-    <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
-      <i class="fa fa-3x fa-times"></i>
-    </a>
-    <div class="container text-center">
-      <h2 class="text-secondary mb-0">CAD 10 Overview</h2>
-      <hr class="star-dark mb-5">
       <div class="row">
-        <div class="col-lg-4 mx-auto">
-          <img class="img-fluid mb-5" src="img/trainings/Cad10_cal.png" alt="" width="300px">
-          <p class="mb-5">Overview of CAD 10.</p>
-          <a class="btn btn-xl rounded-pill" href="https://hexmet.sharepoint.com/sites/GPS-Knowledge-Sharing/Shared%20Documents/General" target="_blank">
-            <i class="fas fa-download mr-2"></i>
-            Download Files
-          </a>
-        </div>
-        <div class="col-lg-4 mx-auto team-member">
-          <img class="mx-auto rounded-circle" src="img/team/Ravi.jpg" alt="">
-          <h4>Ravi Babu Arepalli</h4>
-          <p class="text-muted">Senior Manager - Technical</p>
-          <a class="btn btn-xl btn-outline-dark" 
-            href="mailto:ravi.arepalli@hexagonsi.com&Subject=Reg:%20Trainings%20-%20Thank%20You&cc=srinivas.panuganti@hexagonsi.com;rajaaditya.gopu@hexagonsi.com;ramanadham.konduru@hexagonsi.com" 
+        <div class="col-lg-8 mx-auto text-center mt-4">
+          <a class="btn btn-xl btn-outline-dark" href="mailto:srinivas.panuganti@hexagonsi.com&Subject=Reg:%20Trainings%20-%20Thank%20You&cc=pavankumar.deverapalli@hexagonsi.com;sravani.tirumareddi@hexagonsi.com;Krishna.Anipindi@hexagonsi.com;ramya.gokaraju@hexagonsi.com;khaiser.mohammed@hexagonsi.com;rajiv.jalakam@hexagonsi.com;ravi.arepalli@hexagonsi.com;rajaaditya.gopu@hexagonsi.com;ramanadham.konduru@hexagonsi.com"
             target="_top">
             <i class="fas fa-thumbs-up mr-2"></i>
             Say Thanks!
@@ -956,94 +230,218 @@
         </div>
       </div>
     </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="bg-primary text-white mb-0" id="about">
+    <div class="container">
+      <h2 class="text-center text-uppercase text-white">About</h2>
+      <hr class="star-light mb-5">
+      <div class="row">
+        <div class="col-lg-4 ml-auto">
+          <p class="lead">Knowledge is power. In our continuous endeavor to bring the team to speed on the
+            ever-expanding realms of domain and on the latest and greatest of technologies, we have been conducting
+            carefully planned knowledge sharing sessions. We are also continuously listening to the needs of the team
+            to deliver sessions that help them onboard a new skill or requirement. It is our passion to spread the
+            light of knowledge and it is our commitment to ensure that no one is left behind.</p>
+        </div>
+        <div class="col-lg-4 mr-auto">
+          <p class="lead">We are always on the lookout for captains who can lead the team in to new arenas and will do
+            our best to ensure that the knowledge imparting journey is smooth and successful. Be on the look out for
+            our adventure sirens and join the ship for an exciting and fruitful journey. Together, we can make this the
+            best ever ride. Hold the beacon of knowledge high.</p>
+        </div>
+      </div>
+      <div class="text-center mt-4">
+        <a class="btn btn-xl btn-outline-light" href="https://teams.microsoft.com/l/channel/19%3ae928ef04a29c4d5ca96f0243109fa659%40thread.skype/General?groupId=9a0a6dfa-6dd7-47e4-a174-f27f557853af&tenantId=1b16ab3e-b8f6-4fe3-9f3e-2db7fe549f6a"
+          target="_blank">
+          <i class="fas fa-sign-in-alt mr-2"></i>
+          Join Teams Now!
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer text-center">
+    <div class="row">
+      <div class="col-md-4">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15224.556547787586!2d78.370112!3d17.4530534!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe3c89d70db77622f!2sPurva+Summit!5e0!3m2!1sen!2sin!4v1545975493183"
+          width="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
+      </div>
+      <div class="col-md-4" style="padding-top: 1rem">
+        <h4 class="text-uppercase mb-4">Contact Us</h4>
+        <ul class="list-inline mb-0">
+          <li class="list-inline-item">
+            <a class="btn btn-outline-light btn-social text-center rounded-circle" href="mailto:Srinivas.Panuganti@Hexagonsi.com?Subject=Reg:%20Trainings">
+              <i class="fas fa-fw fa-envelope"></i>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a class="btn btn-outline-light btn-social text-center rounded-circle" href="https://twitter.com/cnuis2cool"
+              target="_blank">
+              <i class="fab fa-fw fa-twitter"></i>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a class="btn btn-outline-light btn-social text-center rounded-circle" href="https://in.linkedin.com/in/cnuis2cool"
+              target="_blank">
+              <i class="fab fa-fw fa-linkedin-in"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-md-4" style="padding-top: 1rem">
+        <small>
+          <h4 class="text-uppercase mb-4">Credentials</h4>
+          <p class="lead mb-0">This Open source theme taken from
+            <a href="http://startbootstrap.com">Start Bootstrap</a></p>
+        </small>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- Copyright -->
+  <div class="copyright py-4 text-center text-white">
+    <div class="container">
+      <div class="row">
+        <div class="container">
+          <small>Copyright &copy; GPS 2018</small>
+        </div>
+      </div>
+    </div>
   </div>
-</div>
 
-      <!-- Schedule Modal 1 -->
-      <div class="modal fade" id="cad10" tabindex="-1" role="dialog" aria-labelledby="cad10" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="cad10">CAD 10 Overview</h5>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
-            </div>
-            <div class="modal-body">
-              <div class="row">
-                <div class="col-lg-6">
-                  <ul style="list-style-type: disc">
-                    <li>Trainer: Ravi Babu Arepalli</li>
-                    <li>Date & Time: Mon, 7 Dec, 3:30-04:15 PM</li>
-                    <li>Location: MR1</li>
-                    <li>WebEx: <a href="https://intergraph.webex.com/intergraph/j.php?MTID=mbcfe9d1daf7bda914294dc32670fab70">Link</a>, Password: 12345</li>
-                  </ul>
-                </div>
-                <div class="col-lg-3">
-                    <img class="mx-auto rounded-circle" height="100px" src="img/team/Ravi.jpg"/>
-                </div>
-                <div class="col-lg-3">
-                  <img class="img-fluid" src="img/trainings/Cad10_cal.png" height="100px"/>  
-                </div>
-              </div>
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
-            </div>
+  <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+  <div class="scroll-to-top d-lg-none position-fixed ">
+    <a class="js-scroll-trigger d-block text-center text-white rounded" href="#page-top">
+      <i class="fa fa-chevron-up"></i>
+    </a>
+  </div>
+
+  <!-- Portfolio Modals -->
+
+  <!-- Portfolio Modal -10 -->
+  <div class="portfolio-modal mfp-hide" id="portfolio-modal-10">
+    <div class="portfolio-modal-dialog bg-white">
+      <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
+        <i class="fa fa-3x fa-times"></i>
+      </a>
+      <div class="container text-center">
+        <h2 class="text-secondary mb-0">CAD 10 Overview</h2>
+        <hr class="star-dark mb-5">
+        <div class="row">
+          <div class="col-lg-4 mx-auto">
+            <img class="img-fluid mb-5" src="img/trainings/Cad10_cal.png" alt="" width="300px">
+            <p class="mb-5">Overview of CAD 10.</p>
+            <a class="btn btn-xl rounded-pill" href="https://hexmet.sharepoint.com/sites/GPS-Knowledge-Sharing/Shared%20Documents/General"
+              target="_blank">
+              <i class="fas fa-download mr-2"></i>
+              Download Files
+            </a>
+          </div>
+          <div class="col-lg-4 mx-auto team-member">
+            <img class="mx-auto rounded-circle" src="img/team/Ravi.jpg" alt="">
+            <h4>Ravi Babu Arepalli</h4>
+            <p class="text-muted">Senior Manager - Technical</p>
+            <a class="btn btn-xl btn-outline-dark" href="mailto:ravi.arepalli@hexagonsi.com&Subject=Reg:%20Trainings%20-%20Thank%20You&cc=srinivas.panuganti@hexagonsi.com;rajaaditya.gopu@hexagonsi.com;ramanadham.konduru@hexagonsi.com"
+              target="_top">
+              <i class="fas fa-thumbs-up mr-2"></i>
+              Say Thanks!
+            </a>
           </div>
         </div>
       </div>
-      
-      <!-- Schedule Modal 2 -->
-      <div class="modal fade" id="nosql" tabindex="-1" role="dialog" aria-labelledby="nosql" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="nosql">NoSQL Database</h5>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
+    </div>
+  </div>
+
+  <!-- Schedule Modal 1 -->
+  <div class="modal fade" id="cad10" tabindex="-1" role="dialog" aria-labelledby="cad10" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="cad10">CAD 10 Overview</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-lg-6">
+              <ul style="list-style-type: disc">
+                <li>Trainer: Ravi Babu Arepalli</li>
+                <li>Date & Time: Mon, 7 Dec, 3:30-04:15 PM</li>
+                <li>Location: MR1</li>
+                <li>WebEx: <a href="https://intergraph.webex.com/intergraph/j.php?MTID=mbcfe9d1daf7bda914294dc32670fab70">Link</a>,
+                  Password: 12345</li>
+              </ul>
             </div>
-            <div class="modal-body">
-              <div class="row">
-                <div class="col-lg-6">
-                  <ul style="list-style-type: disc">
-                    <li>Trainer: Srinivas Panuganti</li>
-                    <li>Date & Time: Thu, 17 Dec, 3:30-04:15 PM</li>
-                    <li>Location: MR1</li>
-                    <li>WebEx: <a href="https://intergraph.webex.com/intergraph/j.php?">Link</a>, Password: 12345</li>
-                  </ul>
-                </div>
-                <div class="col-lg-3">
-                    <img class="mx-auto rounded-circle" height="100px" src="img/team/Srinivas.jpg"/>
-                </div>
-                <div class="col-lg-3">
-                  <img class="img-fluid" src="img/trainings/NoSql_cal.png" height="100px"/>    
-                </div>
-              </div>
+            <div class="col-lg-3">
+              <img class="mx-auto rounded-circle" height="100px" src="img/team/Ravi.jpg" />
             </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+            <div class="col-lg-3">
+              <img class="img-fluid" src="img/trainings/Cad10_cal.png" height="100px" />
             </div>
           </div>
         </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+        </div>
       </div>
+    </div>
+  </div>
 
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <!-- Schedule Modal 2 -->
+  <div class="modal fade" id="nosql" tabindex="-1" role="dialog" aria-labelledby="nosql" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="nosql">NoSQL Database</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-lg-6">
+              <ul style="list-style-type: disc">
+                <li>Trainer: Srinivas Panuganti</li>
+                <li>Date & Time: Thu, 17 Dec, 3:30-04:15 PM</li>
+                <li>Location: MR1</li>
+                <li>WebEx: <a href="https://intergraph.webex.com/intergraph/j.php?">Link</a>, Password: 12345</li>
+              </ul>
+            </div>
+            <div class="col-lg-3">
+              <img class="mx-auto rounded-circle" height="100px" src="img/team/Srinivas.jpg" />
+            </div>
+            <div class="col-lg-3">
+              <img class="img-fluid" src="img/trainings/NoSql_cal.png" height="100px" />
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
 
-    <!-- Plugin JavaScript -->
-    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-    <!-- Contact Form JavaScript -->
-    <script src="js/jqBootstrapValidation.js"></script>
-    <script src="js/contact_me.js"></script>
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+  <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
 
-    <!-- Custom scripts for this template -->
-    <script src="js/freelancer.min.js"></script>
+  <!-- Contact Form JavaScript -->
+  <script src="js/jqBootstrapValidation.js"></script>
+  <script src="js/contact_me.js"></script>
 
-  </body>
+  <!-- Custom scripts for this template -->
+  <script src="js/freelancer.min.js"></script>
+
+</body>
 
 </html>
