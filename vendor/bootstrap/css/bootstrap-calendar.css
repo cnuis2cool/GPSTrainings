@@ -160,3 +160,33 @@ html, body {
   section#timeline article:nth-child(9) div.inner h2:after {
     background: #1abc9c;
   }
+
+  @media (max-width: 767.98px) {
+
+    section#timeline article {
+      width: 100%;
+      margin: 0 0 30px 0;
+      position: relative;
+    }
+
+    section#timeline article div.inner {
+      width: 100%;
+      float: left;
+      margin: 60px 0 0 0;
+      border-radius: 6px;
+    }
+
+    section#timeline article div.inner h2:after {
+      content: '';
+      position: absolute;
+      top: 0px;
+      right: 148px;
+          width: 10px; 
+          height: 10px;
+      -webkit-transform: rotate(0deg);
+    }
+
+    section#timeline article:nth-child(2n+2) div.inner h2:after {
+      left: 147px;
+    }
+  }
