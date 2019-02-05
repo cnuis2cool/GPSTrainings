@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+PRODID:-//Microsoft Corporation//Outlook 10.0 MIMEDIR//EN
+VERSION:2.0
+METHOD:REQUEST
+BEGIN:VTIMEZONE
+TZID:India Time
+BEGIN:STANDARD
+DTSTART:20170101T000000
+TZOFFSETFROM:+0530
+TZOFFSETTO:+0530
+TZNAME:Standard Time
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+ATTENDEE;CN="Srinivas Panuganti";ROLE=REQ-PARTICIPANT;RSVP=FALSE:MAILTO:srinivas.panuganti@hexagonsi.com
+ORGANIZER;CN="webex":MAILTO:messenger@webex.com
+DTSTART;TZID="India Time":20190201T153000
+DTEND;TZID="India Time":20190201T163000
+LOCATION:https://intergraph.webex.com/intergraph
+TRANSP:OPAQUE
+SEQUENCE:1548911327
+UID:5f318b2b-05c7-4a46-9eb9-16c1a5d4b718
+DTSTAMP:20190201T100000Z
+DESCRIPTION:\n\nJOIN WEBEX MEETING\nhttps://intergraph.webex.com/intergraph/j.php?MTID=m33cabbda4eae3c80be5cc2d7d20a6e37\nMeeting number (access code): 924 851 345\nHost key: 275131\nMeeting password: 12345\n\n\n\nJOIN BY PHONE\n1-877-668-4493 Call-in toll-free number (US/Canada) \nTap here to call (mobile phones only, hosts not supported): tel:1-877-668-4493,,*01*924851345%23%23*01* \n\n1-650-479-3208 Call-in toll number (US/Canada) \nTap here to call (mobile phones only, hosts not supported): tel:%2B1-650-479-3208,,*01*924851345%23%23*01*\n\nGlobal call-in numbers:\nhttps://intergraph.webex.com/intergraph/globalcallin.php?serviceType=MC&ED=751895907&tollFree=1\n\nToll-free dialing restrictions: \nhttps://www.webex.com/pdf/tollfree_restrictions.pdf\n\n\n\nCan't join the meeting? Contact support here:\nhttps://intergraph.webex.com/intergraph/mc\n\n\nIMPORTANT NOTICE: Please note that this Webex service allows audio and other information sent during the session to be recorded, which may be discoverable in a legal matter. You should inform all meeting attendees prior to recording if you intend to record the meeting.\n
+X-ALT-DESC;FMTTYPE=text/html:	<FONT SIZE="1" FACE="ARIAL"><FONT SIZE="4" FACE="ARIAL">		<a href="https://intergraph.webex.com/intergraph/j.php?MTID=m33cabbda4eae3c80be5cc2d7d20a6e37"><FONT SIZE="3" COLOR="#00AFF9" FACE="Arial">Join Webex meeting</FONT></a>			<table>				<tr>					<td>						<FONT SIZE="2" COLOR="#666666" FACE="arial">Meeting number (access code): 924 851 345</FONT>					</td>				</tr>			</table>			<table>				<tr>					<td>						<FONT SIZE="2" COLOR="#666666" FACE="arial">Host key: 275131</FONT>					</td>				</tr>			</table>			<table><tr><td><FONT SIZE="2" COLOR="#666666" FACE="arial">Meeting password:</FONT></td><td><FONT SIZE="2"  COLOR="#666666" FACE="arial">12345</FONT></td></tr></table>		</FONT><br><FONT size="2" COLOR="#FF0000"></FONT><br><FONT SIZE="1" FACE="ARIAL">&nbsp;<BR>&nbsp;<BR></FONT><FONT SIZE="4" FACE="ARIAL"><FONT SIZE="3" COLOR="#666666" FACE="arial">Join by phone</FONT>&nbsp; <BR><FONT SIZE="2" COLOR="#666666" FACE="arial"><strong><a href='tel:1-877-668-4493,,*01*924851345%23%23*01*' style='color:#00AFF9;  text-decoration:none;'>1-877-668-4493</a></strong>&nbsp;Call-in toll-free number (US/Canada)</FONT>&nbsp; <BR><FONT SIZE="2" COLOR="#666666" FACE="arial"><strong><a href='tel:%2B1-650-479-3208,,*01*924851345%23%23*01*' style='color:#00AFF9;  text-decoration:none;'>1-650-479-3208</a></strong>&nbsp;Call-in toll number (US/Canada)</FONT>&nbsp; <BR><a href="https://intergraph.webex.com/intergraph/globalcallin.php?serviceType=MC&ED=751895907&tollFree=1"><FONT SIZE="1" COLOR="#00AFF9" FACE="arial">Global call-in numbers</FONT></a><FONT SIZE="1" FACE="ARIAL">&nbsp;&nbsp;|&nbsp;&nbsp;</FONT><a href="https://www.webex.com/pdf/tollfree_restrictions.pdf"><FONT SIZE="1" COLOR="#00AFF9" FACE="arial">Toll-free calling restrictions</FONT></a> &nbsp; <BR></FONT><BR><BR>	&nbsp;<BR>	<FONT SIZE="1" COLOR="#666666" FACE="arial">				Can't join the meeting?</FONT>	<a href="https://intergraph.webex.com/intergraph/mc">	<FONT SIZE="1" COLOR="#00AFF9" FACE="Arial">Contact support.</FONT></a>	&nbsp;<BR>&nbsp;<BR><FONT COLOR="#A0A0A0" size="1" FACE="arial">IMPORTANT NOTICE: Please note that this Webex service allows audio and other information sent during the session to be recorded, which may be discoverable in a legal matter. You should inform all meeting attendees prior to recording if you intend to record the meeting.</FONT></FONT>
+SUMMARY:Knowledge Sharing - Basic Coding Standards
+PRIORITY:5
+CLASS:PUBLIC
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+END:VCALENDAR
