@@ -1,0 +1,56 @@
+BEGIN:VCALENDAR
+PRODID:-//Microsoft Corporation//Outlook 16.0 MIMEDIR//EN
+VERSION:2.0
+METHOD:PUBLISH
+X-MS-OLK-FORCEINSPECTOROPEN:TRUE
+BEGIN:VTIMEZONE
+TZID:India Standard Time
+BEGIN:STANDARD
+DTSTART:16010101T000000
+TZOFFSETFROM:+0530
+TZOFFSETTO:+0530
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+CLASS:PUBLIC
+CREATED:20211114T144425Z
+DESCRIPTION:Hi Learners\,\n \nPart of Mobile Apps Hackathon\, we would like
+	 to conduct a few knowledge sharing sessions on Mobile App Development ove
+	rview and a couple of Mobile App Development Technology Tools and Framewor
+	ks.\n \nThese sessions may help you in choosing the right technology and t
+	ools for your App Development and also give you an overview of development
+	 life cycle.\n \nThis is the first session which outlines the various mobi
+	le app development approaches.\n \nThanks\,\nGPS Learning Hackathon Team\n
+DTEND;TZID="India Standard Time":20211115T170000
+DTSTAMP:20211114T144425Z
+DTSTART;TZID="India Standard Time":20211115T163000
+LAST-MODIFIED:20211114T144425Z
+PRIORITY:5
+SEQUENCE:0
+SUMMARY;LANGUAGE=en-us:Mobile App Development Overview
+TRANSP:OPAQUE
+UID:040000008200E00074C5B7101A82E008000000005C3DD79B65D9D701000000000000000
+	01000000004CF9DA8B36C4D49AE7E69BED15F123B
+X-ALT-DESC;FMTTYPE=text/html:<html>\n<head>\n\n</head>\n<body>\n<div>Hi Lea
+	rners\,</div>\n<div>&nbsp\;</div>\n<div>Part of Mobile Apps Hackathon\, we
+	 would like to conduct a few knowledge sharing sessions on Mobile App Deve
+	lopment overview and a couple of Mobile App Development Technology Tools a
+	nd Frameworks.</div>\n<div>&nbsp\;</div>\n<div class="copy-paste-block" it
+	emprop="copy-paste-block">\n<div itemprop="copy-paste-block">These session
+	s may help you in choosing the right technology and tools for your App Dev
+	elopment and also give you an overview of development life cycle.</div>\n<
+	div>&nbsp\;</div>\n<div><span style="background-color:initial\;font-size:1
+	.4rem\;">This is the first session which outlines the various mobile app d
+	evelopment approaches.</span></div>\n</div>\n<div>&nbsp\;</div>\n<div>Than
+	ks\,</div>\n<div class="copy-paste-block" itemprop="copy-paste-block"><spa
+	n style="font-size:11pt\;"><span style="font-family:Calibri\,sans-serif\;"
+	>GPS Learning Hackathon Team</span></span></div>\n</body>\n</html>\n
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-IMPORTANCE:1
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+END:VCALENDAR
